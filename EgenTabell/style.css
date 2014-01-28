@@ -1,0 +1,38 @@
+table {
+	background-color:Silver;
+	font-family: Verdana, Arial, sans-serif;
+	border: 1px solid #000;
+	*border-collapse: collapse;
+	border-spacing: 0;
+}
+
+thead th {
+	text-shadow: 1px 1px 1px;
+}
+
+td, th {
+	border:1px solid#000;
+	border-color:silver;
+}
+
+tbody td, th {
+	border: 1px solid #f00;
+	width: 150px;
+}
+
+tr {
+	background-color: Silver;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+tr:hover {
+	background-color:ActiveCaption;
+}
+
+#brfast td {
+	border-top: 1px solid #0f0;
+}
